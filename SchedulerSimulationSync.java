@@ -68,7 +68,7 @@ class SharedResources {
         } finally {
             counterLock.unlock();
         }
-س    }
+    }
 
     // Method to add waiting time
     public static void addWaitingTime(long time) {
