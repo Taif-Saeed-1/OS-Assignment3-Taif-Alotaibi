@@ -20,10 +20,10 @@
 
 **Verification**:
 - [ c] Link is accessible (tested in incognito mode)
-- [ ] Video is 3-5 minutes long
-- [ ] Video shows code walkthrough and commits
-- [ ] Video has clear audio
-- [ ] Uploaded to PERSONAL Gmail (not @std.psau.edu.sa)
+- [c ] Video is 3-5 minutes long
+- [ c] Video shows code walkthrough and commits
+- [ c] Video has clear audio
+- [ c] Uploaded to PERSONAL Gmail (not @std.psau.edu.sa)
 
 ---
 
