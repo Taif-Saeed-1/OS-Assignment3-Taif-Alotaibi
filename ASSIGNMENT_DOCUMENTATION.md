@@ -19,7 +19,7 @@
 **Video filename**: `445052186_Assignment3_Synchronization.mp4`
 
 **Verification**:
-- [ ] Link is accessible (tested in incognito mode)
+- [ c] Link is accessible (tested in incognito mode)
 - [ ] Video is 3-5 minutes long
 - [ ] Video shows code walkthrough and commits
 - [ ] Video has clear audio
