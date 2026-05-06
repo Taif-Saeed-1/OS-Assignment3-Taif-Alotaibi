@@ -14,7 +14,7 @@
 > Set sharing to "Anyone with the link can view".
 > Test the link in incognito/private mode before submitting.
 
-**Video Link**: [Paste your personal Gmail Google Drive link here]
+**Video Link**: https://drive.google.com/file/d/1Bf-HZWeVpIB2WtRSTlf8bjNYqu3Ky4j_/view?usp=sharing
 
 **Video filename**: `445052186_Assignment3_Synchronization.mp4`
 
@@ -192,14 +192,14 @@ They are shared between multiple threads and updated concurrently, which can lea
 ReentrantLock  
 
 **Code snippet**:
-```java
+```]java
 counterLock.lock();
 try {
     contextSwitchCount++;
 } finally {
     counterLock.unlock();
 }
-
+```
 **Justification**: 
 Locking ensures mutual exclusion so that only one thread updates the counters at a time, preventing incorrect values.
 ---
@@ -220,7 +220,9 @@ try {
     executionLog.add(message);
 } finally {
     logLock.unlock();
-}```
+}
+```
+
 
 **Justification**: 
 ArrayList is not thread-safe, so using a lock ensures safe access and modification.
@@ -243,7 +245,8 @@ try {
     // process execution
 } finally {
     SharedResources.cpuSemaphore.release();
-}```
+}
+```
 
 **Effect on program behavior**: 
 It ensures that processes execute sequentially without overlap, maintaining correct scheduling behavior.
@@ -368,7 +371,7 @@ Synchronization is like controlling access to a shared room. Only one person is 
 https://github.com/Taif-Saeed-1/OS-Assignment3-Taif-Alotaibi
 
 **Number of commits**: 
-10
+11
 
 **Commit messages**: 
 1. Set student ID
@@ -381,6 +384,7 @@ https://github.com/Taif-Saeed-1/OS-Assignment3-Taif-Alotaibi
 8.Add semaphore to run method
 9.Add semaphore to runToCompletion
 10.Complete assignment documentation
+11.Revise REFLECTION.md with detailed insi
 
 ---
 
