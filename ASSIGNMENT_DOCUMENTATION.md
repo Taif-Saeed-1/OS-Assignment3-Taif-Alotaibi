@@ -378,13 +378,13 @@ https://github.com/Taif-Saeed-1/OS-Assignment3-Taif-Alotaibi
 2. Add synchronization imports
 3. Add locks and semaphore
 4. Protect context switch counter
-5.Protect completed process counter
-6.Protect waiting time calculation
-7.Protect execution log
-8.Add semaphore to run method
-9.Add semaphore to runToCompletion
-10.Complete assignment documentation
-11.Revise REFLECTION.md with detailed insi
+5. Protect completed process counter
+6. Protect waiting time calculation
+7. Protect execution log
+8. Add semaphore to run method
+9. Add semaphore to runToCompletion
+10. Complete assignment documentation
+11. Revise REFLECTION.md with detailed insi
 
 ---
 
